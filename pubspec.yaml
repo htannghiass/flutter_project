@@ -40,6 +40,7 @@ dependencies:
   flutter_svg: ^2.0.5
   cached_network_image: ^3.2.3
   path_provider: ^2.0.15
+  card_swiper : ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +67,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icons/
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/icons/sale.png
+    - assets/icons/add.png
+    - assets/icons/new.png
+    - assets/images/product1.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -1,3 +1,4 @@
+import 'package:fashion/src/modules/user/views/homeScreen/mainHomeScreen.dart';
 import 'package:fashion/routes/path.dart';
 import 'package:fashion/src/modules/user/views/login/login_view.dart';
 import 'package:fashion/src/modules/user/views/register/register_view.dart';
@@ -18,6 +19,8 @@ class AppRoutes {
       case signUpPath:
         return MaterialPageRoute(builder: (_) => const RegisterView());
 
+      case homeScreenPath:
+        return MaterialPageRoute(builder: (_) => const MainHomeScreen());
       // case profilePath:
       //   return MaterialPageRoute(builder: (_) => const ProfileView());
 
